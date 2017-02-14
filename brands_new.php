@@ -41,7 +41,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Form Validation</h3>
+                <h3>Proizvođači</h3>
               </div>
 
               <div class="title_right">
@@ -61,9 +61,9 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_content">
-                    <h1>Unos proizvođača</h1>
+                    <h1>Unos</h1>
                   <form action="brands_create.php" method="post" class="form-horizontal form label-left">
-                    <div class="form-group">
+                  <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Ime proizvođača:</label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <input type ="text" id="name" name="name" required="required" class="form-control col-md-7 col-xs-12">

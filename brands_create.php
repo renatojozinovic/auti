@@ -7,4 +7,5 @@ $mysqli->query($sql);
 
 header('Location: brands.php');
 
+
 ?>

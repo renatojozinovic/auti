@@ -64,7 +64,7 @@
                     <h1>Izmjena</h1>
                     
                     <?php
-                    $sql = "SELECT name, year_est FROM brands WHERE id="  .  $_GET['id'];                   
+                    $sql = "SELECT id, name, year_est FROM brands WHERE id="  .  $_GET['id'];                   
                     $result = $mysqli->query($sql);                   
                     $brand = $result->fetch_assoc();                   
                     echo($brand['name']);
